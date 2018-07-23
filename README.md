@@ -1,5 +1,7 @@
 # node-red-contrib-brain-js
 
+[![npm version](https://badge.fury.io/js/node-red-contrib-brain-js.svg)](https://badge.fury.io/js/node-red-contrib-brain-js)
+
 This node provides neural networks.
 It is based on [brain.js](https://github.com/harthur-org/brain.js)
 
