@@ -51,3 +51,7 @@ When the input message contains **msg.netJSON**, the network is loaded from the 
 ### License
 
 MIT License
+
+### Credits
+
+This is fork of the [fchanson/node-red-contrib-neuralnet](https://github.com/fchanson/node-red-contrib-neuralnet), all credits to the original author.
