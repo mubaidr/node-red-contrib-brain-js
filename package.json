@@ -1,32 +1,52 @@
 {
-  "name": "node-red-contrib-neuralnet",
-  "version": "0.0.3",
-  "description": "This node provides neural networks using brain.js",
-  "dependencies": {
-	  "brain.js":"1.0.0-rc.3"
-  },
-  "repository": {
-      "type": "git",
-      "url": "git://github.com/fchanson/node-red-contrib-neuralnet.git"
-  },
-  "keywords": [
-               "node-red",
-               "neural network",
-               "ai",
-               "machine learning"
-  ],
-  "node-red"     : {
-      "nodes": {
-          "node-red-neuralnet": "neuralnet/neuralnet.js"
-      }
-  },
   "author": {
-	    "name": "Frederic Chanson"
-	},
-  "license": "MIT",
+    "name": "Muhammad Ubaid Raza"
+  },
   "bugs": {
-	    "url": "https://github.com/fchanson/node-red-contrib-neuralnet/issues"
-	},
-  "homepage": "https://github.com/fchanson/node-red-contrib-neuralnet",
-  "readmeFilename": "README.md"
+    "url": "https://github.com/mubaidr/node-red-contrib-brain-js/issues"
+  },
+  "dependencies": {
+    "brain.js": "1.2.4"
+  },
+  "description": "This node provides neural networks using brain.js",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.13.7"
+  },
+  "homepage": "https://github.com/mubaidr/node-red-contrib-brain-js",
+  "keywords": [
+    "node-red",
+    "neural network",
+    "ai",
+    "machine learning",
+    "brain.js"
+  ],
+  "license": "MIT",
+  "main": "src/neuralnet.js",
+  "name": "node-red-contrib-brain-js",
+  "node-red": {
+    "nodes": {
+      "node-red-neuralnet": "src/neuralnet.js"
+    }
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mubaidr/node-red-contrib-brain-js.git"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --ext .js src --fix",
+    "prettier": "prettier --write ./src/**/*.js"
+  },
+  "version": "0.0.1"
 }

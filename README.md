@@ -1,19 +1,17 @@
-# node-red-contrib-neuralnet
+# node-red-contrib-brain-js
 
 This node provides neural networks.
-It is based on [brain.js](https://github.com/harthur-org/brain.js) (version 1.0.0-rc.3).
+It is based on [brain.js](https://github.com/harthur-org/brain.js)
 
 ### Install
 
 From your node-red directory:
 
-    npm install node-red-contrib-neuralnet
-    
+npm install node-red-contrib-brain-js
+
 or
-    
-in the Node-red, Manage palette, Install node-red-contrib-neuralnet
 
-
+in the Node-red, Manage palette, Install node-red-contrib-brain-js
 
 ### Usage
 
@@ -21,10 +19,11 @@ This node provides neural networks.<br>
 At first you need to see the [brain.js](https://github.com/harthur-org/brain.js) documentation<p>
 
 The following neural networks are available :<p>
+
 - Feedforward Neural Network with backpropagation.
-- Recurrent Neural Network (BETA).
-- Long Short Term Memory Neural Network (BETA).
-- Gated Recurrent Unit (BETA).
+- Recurrent Neural Network
+- Long Short Term Memory Neural Network
+- Gated Recurrent Unit
 
 ### Training
 
@@ -43,6 +42,6 @@ The result is available in **msg.decision**.
 
 When the input message contains **msg.netJSON**, the network is loaded from the JSON provided.
 
-### License 
+### License
 
 MIT License
